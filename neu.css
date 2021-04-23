@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.picsum.photos/id/1076/4835/3223.jpg?hmac=sw_W2oBUV1Pp_QwMbkODYHgWlX-SOkVRatS_UErh64Q);
+  background-size: cover;
+}
+
+#contact-form {
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  padding: 5% 10%;
+  color: black;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-heading {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+label {
+  display: none;
+}
+
+.contact-input {
+  background: silver;
+  padding: 5% 10%;
+  margin: 1rem;
+  border: 1;
+  border-radius: 49px;
+  box-shadow: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#message {
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+button {
+  margin: 1rem;
+  background: white;
+  padding: 5% 10%;
+  border: none;
+  border-radius: 200px;
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.4);
+}

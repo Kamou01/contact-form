@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./neu.css" />
+  </head>
+  <body>
+    <!--FORM-->
+    <form
+      action="https://formspree.io/f/meqvovbb"
+      method="POST"
+      id="contact-form"
+    >
+      <h1 class="contact-heading">Contact Me</h1>
+      <!--Name-->
+      <div class="contact-info">
+        <label for="name" class="contact-label">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="contact-input"
+          required
+          placeholder="Full Name"
+        />
+      </div>
+
+      <!--Email-->
+      <div class="contact-info">
+        <label for="email" class="contact-label">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="contact-input"
+          required
+          placeholder="Enter your Email"
+        />
+      </div>
+
+      <!--Number-->
+      <div class="contact-information">
+        <label for="number" class="contact label">Number</label>
+        <input
+          type="tel"
+          name="number"
+          id="tel"
+          class="contact-input"
+          required
+          placeholder="Enter Your Number"
+        />
+      </div>
+
+      <!--Message-->
+      <div class="contact-information">
+        <label for="message" class="contact label"> Message</label>
+        <textarea
+          type="text"
+          name="text"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Message Here"
+          class="contact-input"
+        ></textarea>
+      </div>
+
+      <!--Button-->
+      <div>
+        <button type="submit" class="contact-button">SEND</button>
+      </div>
+    </form>
+  </body>
+</html>
